@@ -1,0 +1,77 @@
+
+
+CNN has 2 parts
+- Convolv
+- Classification
+
+Image has 3 channels
+- Red
+- Green
+- Blue
+
+RGB color ranges from 0 to 255
+- 0 means black   ( kuch nhi hai tou andhera)
+- 255 means white
+
+-----------------------------------------------
+CNN has following layers
+- Convolution
+- Pooling
+- Fully Connected
+
+
+1- Convolution layer is used to extract features from the image
+
+Convolution layer has following parameters
+- Kernel size
+- Stride
+- Depth
+
+
+Kernel Filter size in CNN depend upon the problem
+
+Resultant image is called feature map, Convolv feature map or activation map
+
+Size of feature map depends upon
+- Depth
+- Stride
+
+Depth
+- Depth of feature map is the number of filters applied
+
+Stride
+- Stride is the number of pixels to move the kernel
+- If stride is double , then feature map size is half
+
+----------------------------------------------
+2- Pooling layer
+Pooling is used to down sampling the image
+
+Pooling layer types
+- Max Pooling
+- Average Pooling
+
+Max Pooling
+- Max pooling is used to reduce the size of feature map
+- It is used to reduce the size of feature map
+- It is used to reduce the number of parameters
+
+(2,2) max pooling half the image size
+
+Average Pooling
+- Average pooling is used to reduce the size of feature map
+
+---------------------------------------------
+
+3- Fully Connected layer
+Fully connected layer is used to classify the image
+
+Fully connected layer has following parameters
+- Number of neurons
+- Activation function
+
+
+In convolution layers size start at min 32, then increase 64, 128, 
+
+In dense layers neuron size start at max then converge
+
